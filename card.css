@@ -1,0 +1,36 @@
+
+  .card {
+    box-shadow: 1px 4px 8px 0 rgba(243, 197, 197, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: hwb(0 22% 60%);
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+
+    display: inline-block;
+    padding: 8px;
+    color: rgb(64, 16, 207);
+    background-color: #c6f00f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(223, 42, 240);
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
